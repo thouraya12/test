@@ -1,0 +1,26 @@
+algorithme sentences
+var
+char: string;
+numv,numw,numcar: integer:=0;
+begin
+write('donner le phrase':=ch)
+read(ch)
+while(ch[i]<>".")
+do 
+if(ch[i]="a" ch[i]="o" ch[i]="e"  or ch[i]="u")
+numv:=numv+1;
+end if
+else if (ch[i]="")
+numw:=numw+1;
+end if
+if (ch[i]<> .)
+numcar:=numcar+1;
+end if
+write( "donner numv");
+write( "donner numw");
+write( "donner numcar");
+end
+
+
+
+ 
